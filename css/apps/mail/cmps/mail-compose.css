@@ -1,0 +1,40 @@
+.mail-compose {
+    position: absolute;
+    top: 223px;
+    top: 140px;
+    z-index: 1;
+}
+
+.compose-container {
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+
+.tools-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.content-container {
+    flex-direction: column;
+}
+
+
+.content-container textarea {
+    border: none;
+    width: 100%;
+}
+
+.content-container input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+}
+
+.content-container img {
+    padding: 6px;
+}

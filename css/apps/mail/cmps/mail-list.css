@@ -1,0 +1,52 @@
+.mail-list {
+    margin-left: 1.25em;
+    /* width: 100%; */
+    /* width: 1113px; */
+}
+
+.list-container {
+    /* max-width: 1000px; */
+    height: 338px;
+    overflow: scroll;
+
+    /* scroll-behavior: auto; */
+}
+
+.mail-list .list-container ul {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    margin: 0;
+    padding: 0;
+    /* width: 75em; */
+}
+
+.mail-list .list-container li {
+    border-top: 1px solid lightgray;
+    padding: 5px;
+    width: 100%;
+    border: 1px px #d3d3d34f solid;
+    padding: 10px;
+
+
+}
+
+.mail-list .list-container li:hover {
+    background-color: rgba(233, 233, 233, 0.685);
+    box-shadow: 10px 5px 10px #888888;
+    transition: 0.4s;
+}
+
+.mail-list .list-container li:last-child {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+    width: 100%;
+}
+
+.prev-next-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+}

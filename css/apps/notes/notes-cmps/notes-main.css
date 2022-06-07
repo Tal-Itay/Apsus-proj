@@ -1,0 +1,109 @@
+/* notes */
+.notes-index {
+    background-color: #f4f0ec;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1em;
+
+}
+
+.notes-container {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    column-count: 3;
+    display: inline-block;
+    margin: 0 auto
+}
+
+.note-nav-container {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid black;
+    padding: 0.5em;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: black 1px 5px 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 200px;
+    min-width: 250px;
+    max-width: 300px; */
+}
+
+.note-nav-container:hover {
+    box-shadow: black 6px 16px 18px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.note-nav-container:hover .actions-icon-container {
+    visibility: visible;
+    display: flex;
+}
+
+/* note */
+
+.note-box {
+    /* min-width: 4em; */
+    gap: 10px;
+    margin: 5px;
+    width: 80%;
+
+}
+
+.actions-icon-container {
+    visibility: hidden;
+    gap: 5px;
+    margin-top: 10px;
+    justify-content: end;
+}
+
+
+
+/* text note */
+
+.note-text-container {
+    background-color: var(--clr2);
+}
+
+
+/* note-img */
+
+.note-img {
+    cursor: pointer;
+}
+
+
+/* todos */
+
+.todo-header {
+    margin-bottom: 15px;
+}
+
+.note-todos-container {
+    /* column-count: 4; */
+    /* display: grid; */
+    /* columns: 4; */
+    justify-content: space-between;
+    text-align: left;
+}
+
+.note-todos-container label {
+    text-align: left;
+}
+
+.croessedOut {
+    text-decoration: line-through;
+}
+
+.todo {
+    text-decoration: unset;
+}
+
+.todo-input input {
+    background-color: var(--clr1);
+}

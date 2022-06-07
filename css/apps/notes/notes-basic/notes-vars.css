@@ -1,0 +1,19 @@
+:root {
+    /* Background color */
+    --clr1: #f4f0ec;
+
+    /* Text note */
+    --clr2: #B5EAEA;
+
+    /* Img note */
+    --clr3: #d39adf;
+
+    /* Video note */
+    --clr4: #F38BA0;
+
+    /* Todos note */
+    --clr5: #E6DDC6;
+
+
+    /* --clr6: #d3d3d3; */
+}

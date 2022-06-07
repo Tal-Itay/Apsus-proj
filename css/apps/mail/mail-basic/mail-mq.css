@@ -1,0 +1,52 @@
+@media (min-width: 330px) {
+    .app-home .content-container {
+        position: absolute;
+        left: 7%;
+        top: 26%;
+        font-size: 2.3125em;
+    }
+}
+
+
+@media (min-width: 690px) {
+    .mail-compose {
+        position: absolute;
+        left: 192px;
+        top: 56px;
+        z-index: 1;
+    }
+
+    .compose-container {
+        height: 456px;
+        width: 361px;
+    }
+}
+
+@media (min-width: 880px) {
+    .mail-compose {
+        position: absolute;
+        left: 294px;
+        top: 57px;
+        z-index: 1;
+
+
+    }
+
+    .compose-container {
+        height: 454px;
+        width: 543px;
+    }
+}
+
+
+@media (min-width: 1020px) {
+    .list-container {
+        width: 900px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .mail-compose {
+        left: 600px;
+    }
+}

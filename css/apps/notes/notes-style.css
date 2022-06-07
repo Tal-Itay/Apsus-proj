@@ -1,0 +1,8 @@
+/* BASE */
+@import './notes-basic/notes-vars.css';
+@import './notes-basic/notes-mq.css';
+
+
+/* COMPONENTS */
+@import './notes-cmps/notes-main.css';
+@import './notes-cmps/add-note-actions-bar.css';

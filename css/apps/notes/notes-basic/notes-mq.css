@@ -1,0 +1,13 @@
+/* @media (max-width: 1400px) {
+    .notes-container {
+        column-count: 3;
+
+    }
+}
+
+@media (max-width: 530px) {
+    .notes-container {
+        column-count: 2;
+
+    }
+} */

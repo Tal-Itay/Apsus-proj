@@ -1,0 +1,19 @@
+@font-face {
+    font-family: conthrax;
+    src: url(/fonts/conthrax/conthrax-sb.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: amatic;
+    src: url(../../fonts/Amatic_SC/AmaticSC-Bold.ttf);
+}

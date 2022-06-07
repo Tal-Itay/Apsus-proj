@@ -1,0 +1,8 @@
+.app-about {
+    background-color: var(--clr1);
+    font-size: 1.5em;
+    font-family: roboto, calibri;
+    text-align: center;
+    padding: 4em;
+
+}

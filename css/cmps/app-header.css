@@ -1,0 +1,20 @@
+.app-header {
+    background-color: #a9a9a9;
+    height: 10vh;
+    padding: 1em;
+    font-family: roboto, calibri;
+
+}
+
+.header-container {
+    height: 100%;
+    align-items: center;
+}
+
+.nav-container {
+    font-size: 1.2em;
+}
+
+.logo {
+    font-size: 1.5em;
+}

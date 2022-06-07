@@ -1,0 +1,23 @@
+button,
+.btn {
+    cursor: pointer;
+    border-radius: 2em;
+    align-self: flex-start;
+    padding: 0 1.25em;
+    line-height: 2.25;
+    /* font-family: lato-bold; */
+    /* color: #C2C1C1; */
+    font-size: 1rem;
+    background: none;
+    border: #E1E0E0 solid 1px;
+    position: relative;
+    transition: padding .3s;
+    height: 2.5em;
+}
+
+button:hover,
+.btn {
+    color: var(--col1);
+    border: 2px solid var(--col1);
+    box-shadow: lightgrey 1px 1px 10px;
+}

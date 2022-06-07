@@ -1,0 +1,44 @@
+/* BASE */
+
+@import 'basic/typography.css';
+/* @import 'basic/vars.css'; */
+
+@import 'basic/base.css';
+@import 'basic/layout.css';
+@import 'basic/helpers.css';
+/* @import 'basic/mq.css'; */
+
+
+/* APP COMPONENTS */
+
+@import './cmps/app-home.css';
+@import './cmps/app-about.css';
+@import './cmps/user-msg.css';
+@import './cmps/app-header.css';
+@import './cmps/app-footer.css';
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* MAIL */
+
+/* CMP */
+@import './apps/mail/cmps/mail-compose.css';
+@import './apps/mail/cmps/mail-details.css';
+@import './apps/mail/cmps/mail-filter.css';
+@import './apps/mail/cmps/mail-list.css';
+@import './apps/mail/cmps/mail-preview.css';
+@import './apps/mail/cmps/mail-folder-list.css';
+@import './apps/mail/cmps/mail-app.css';
+
+/* BASE */
+
+@import './apps/mail/mail-basic/base.css';
+@import './apps/mail/mail-basic/mail-mq.css';
+
+/* MAIN */
+@import './apps/mail/mail-style.css';
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+
+/* NOTES */
+@import './apps/notes/notes-style.css';
